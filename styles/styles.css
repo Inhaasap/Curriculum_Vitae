@@ -23,7 +23,7 @@ h6 {
 
 .main-content {
   background-color: #ffffff;
-  height: 1350px;
+  height: 1400px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 105px 90px;
 }
@@ -50,7 +50,7 @@ h6 {
 }
 
 .about-description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
 
@@ -130,7 +130,7 @@ h6 {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -139,7 +139,7 @@ h6 {
 .line {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #000000;
 }
@@ -180,7 +180,7 @@ h6 {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: rgb(4, 207, 207);
+  color: teal;
   margin-bottom: 10px;
 }
 
@@ -196,7 +196,7 @@ h6 {
 .education-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
 }
@@ -305,7 +305,6 @@ h6 {
 }
 
 p {
-  font-family: italic;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
