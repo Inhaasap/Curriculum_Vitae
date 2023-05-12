@@ -46,7 +46,7 @@ h6 {
   font-size: 30px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .about-description {
@@ -307,7 +307,7 @@ h6 {
 p {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #595959;
   width: 600px;
