@@ -23,13 +23,13 @@ h6 {
 
 .main-content {
   background-color: #ffffff;
-  height: 1319px;
+  height: 1350px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 105px 90px;
 }
 
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .about-position {
@@ -42,8 +42,8 @@ h6 {
 }
 
 .about-name {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 25px;
@@ -59,7 +59,7 @@ h6 {
 }
 
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -94,7 +94,7 @@ h6 {
 }
 
 .project-link {
-  text-decoration: none;
+  /* text-decoration: none; */
   margin-left: 10px;
 }
 
@@ -107,7 +107,7 @@ h6 {
 }
 
 .work {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .work-position {
@@ -145,7 +145,7 @@ h6 {
 }
 
 .work-experience {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .work-list {
@@ -163,7 +163,7 @@ h6 {
 }
 
 .education {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .education-title {
@@ -302,4 +302,14 @@ h6 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+
+p {
+  font-family: italic;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 600px;
 }
