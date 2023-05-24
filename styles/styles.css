@@ -95,7 +95,7 @@ h6 {
 
 .project-link {
   /* text-decoration: none; */
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .project-bracket {
@@ -260,6 +260,10 @@ h6 {
   text-decoration: none;
   color: #050505;
   text-decoration: underline;
+}
+
+.location {
+  text-decoration: none;
 }
 
 .tech-skills {
