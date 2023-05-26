@@ -1,6 +1,7 @@
 body {
-  font-family: Montserrat, sans-serif;
+  /* font-family: Montserrat, sans-serif; */
   background-color: #e5e5e5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 p,
@@ -24,7 +25,7 @@ h6 {
 .main-content {
   background-color: #ffffff;
   height: 1420px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 46px 200px 224px -14px rgba(70, 138, 132, 0.81);
   padding: 105px 90px;
 }
 
@@ -34,28 +35,29 @@ h6 {
 
 .about-position {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
   line-height: 17px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .about-name {
+  font-style: italic;
   font-weight: 600;
   font-size: 30px;
   line-height: 55px;
-  color: #000000;
+  color: rgb(130, 177, 177);
   margin-bottom: 20px;
 }
 
 .about-description {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-
   color: #595959;
   width: 600px;
+  margin-bottom: 30px;
 }
 
 .projects {
@@ -64,8 +66,8 @@ h6 {
 
 .title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
@@ -77,18 +79,19 @@ h6 {
 }
 
 .project-item {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: #595959;
+  width: 600px;
+  margin-bottom: 10px;
 }
 
 .project,
 .project-link {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -100,10 +103,18 @@ h6 {
 
 .project-bracket {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+
+.project-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
 }
 
 .work {
@@ -121,10 +132,11 @@ h6 {
 
 .organisation {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: teal;
+  color: rgb(130, 177, 177);
+  margin-bottom: 10px;
 }
 
 .period {
@@ -148,6 +160,15 @@ h6 {
   margin-bottom: 20px;
 }
 
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
 .work-list {
   padding: 0;
   margin-left: 15px;
@@ -155,8 +176,9 @@ h6 {
 
 .work-list-item {
   font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
   width: 600px;
@@ -164,8 +186,8 @@ h6 {
 
 .work-list-text {
   font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
   width: 600px;
@@ -177,19 +199,20 @@ h6 {
 
 .education-title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 27px;
   color: #000000;
   margin: 0;
   margin-bottom: 10px;
 }
+
 .education-secondary {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: teal;
+  color: rgb(130, 177, 177);
   margin-bottom: 10px;
 }
 
@@ -214,8 +237,7 @@ h6 {
 /* side bar styles */
 
 .side-bar {
-  /* background-color: #1e2939; */
-  background-color: rgb(148, 202, 202);
+  background-color: rgb(167, 171, 171);
   padding-top: 40px;
   width: 370px;
 }
@@ -229,8 +251,8 @@ h6 {
 
 .sidebar-title {
   font-size: normal;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 27px;
   color: #ffffff;
   margin-bottom: 10px;
